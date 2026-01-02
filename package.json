@@ -1,0 +1,52 @@
+{
+  "name": "ntu-course-api",
+  "version": "2.2.0",
+  "description": "RESTful API for NTU course content, schedules, and exam timetables",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jared0024/NTU-Public-APIs.git"
+  },
+  "keywords": [
+    "ntu",
+    "course",
+    "schedule",
+    "api",
+    "scraper",
+    "timetable"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jared0024/NTU-Public-APIs/issues"
+  },
+  "homepage": "https://github.com/Jared0024/NTU-Public-APIs#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bullmq": "^5.65.1",
+    "cheerio": "^1.1.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "ioredis": "^5.8.2",
+    "jsdoc": "^4.0.5",
+    "node-cron": "^4.2.1",
+    "pg": "^8.16.3",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "winston": "^3.18.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "nodemon": "^3.1.11",
+    "supertest": "^7.1.4"
+  }
+}
