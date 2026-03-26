@@ -1,4 +1,4 @@
-# NTU Course API
+# NTU Public APIs
 
 A comprehensive, production-ready REST API service for Nanyang Technological University (NTU) course data, providing detailed information on course content, class schedules, exam timetables, real-time vacancy checks, and academic metadata.
 
